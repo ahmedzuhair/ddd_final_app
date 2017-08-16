@@ -4,6 +4,7 @@ import { VitaminsAndMineralsPage } from '../vitamins-and-minerals/vitamins-and-m
 import { EnzymesPage } from '../enzymes/enzymes';
 import { CaloriesPage } from '../calories/calories';
 
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -23,4 +24,5 @@ export class HomePage {
     if (!params) params = {};
     this.navCtrl.push(CaloriesPage);
   }
+
 }

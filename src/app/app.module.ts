@@ -19,8 +19,11 @@ import { FEV1TrendPage } from '../pages/f-ev1trend/f-ev1trend';
 import { CaloriesTrendPage } from '../pages/calories-trend/calories-trend';
 
 
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
+
 
 @NgModule({
   declarations: [
@@ -43,8 +46,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
-  ],
+    IonicModule.forRoot(MyApp),
+],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,

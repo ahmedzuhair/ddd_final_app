@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { HomePage } from '../home/home';
+//import { HomePage } from '../home/home';
 import { VitaminsAndMineralsPage } from '../vitamins-and-minerals/vitamins-and-minerals';
 import { EnzymesPage } from '../enzymes/enzymes';
 import { CaloriesPage } from '../calories/calories';
 import { SignupPage } from '../signup/signup';
+import { TabsControllerPage } from '../tabs-controller/tabs-controller';
+
 
 
 @Component({
@@ -18,7 +20,7 @@ export class LoginPage {
   }
   goToHome(params){
     if (!params) params = {};
-    this.navCtrl.push(HomePage);
+    this.navCtrl.push(TabsControllerPage);
   }goToVitaminsAndMinerals(params){
     if (!params) params = {};
     this.navCtrl.push(VitaminsAndMineralsPage);
